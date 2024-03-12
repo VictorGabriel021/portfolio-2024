@@ -21,7 +21,7 @@ const PortFolioItem: React.FC<IPortFolioItem> = ({
       <img src={imgSrc} alt={title} width="100%" />
       <Informations>
         <div style={{ display: "flex" }}>{Tecnologies}</div>
-        <p>{title}</p>
+        <p style={{ padding: "0 20px" }}>{title}</p>
         <ButtonContainer>
           <CustomizedButtons>
             <a href={linkProject} target="__blank">
