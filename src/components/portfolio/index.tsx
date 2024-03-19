@@ -1,8 +1,11 @@
 import NlwImage from "../../assets/img/nlw.png";
 import ExoticImage from "../../assets/img/exotic.png";
 import GithubImage from "../../assets/img/github.png";
+import GridlayoutImage from "../../assets/img/gridlayout.png";
+import FlexboxImage from "../../assets/img/flexbox.png";
+
 import { Container } from "./styles";
-import { NodeIcon, ReactIcon } from "../icons";
+import { CssIcon, HtmlIcon, NextjsIcon, ReactIcon } from "../icons";
 import PortFolioItem from "./components/item";
 
 function Portfolio() {
@@ -16,7 +19,8 @@ function Portfolio() {
         tecnologies={
           <>
             <ReactIcon height={30} width={30} />
-            <NodeIcon height={30} width={30} />
+            <HtmlIcon height={30} width={30} />
+            <CssIcon height={30} width={30} />{" "}
           </>
         }
       />
@@ -27,8 +31,9 @@ function Portfolio() {
         linkRepo="https://github.com/VictorGabriel021/exotic-cars-nextjs"
         tecnologies={
           <>
-            <ReactIcon height={30} width={30} />
-            <NodeIcon height={30} width={30} />
+            <NextjsIcon height={30} width={30} />
+            <HtmlIcon height={30} width={30} />
+            <CssIcon height={30} width={30} />
           </>
         }
       />
@@ -40,7 +45,32 @@ function Portfolio() {
         tecnologies={
           <>
             <ReactIcon height={30} width={30} />
-            <NodeIcon height={30} width={30} />
+            <HtmlIcon height={30} width={30} />
+            <CssIcon height={30} width={30} />
+          </>
+        }
+      />
+      <PortFolioItem
+        imgSrc={GridlayoutImage}
+        title="Foi desenvolvido uma landing page utilizando grid layout"
+        linkProject="https://grid-blog.netlify.app/"
+        linkRepo="https://github.com/VictorGabriel021/grid-blog"
+        tecnologies={
+          <>
+            <HtmlIcon height={30} width={30} />
+            <CssIcon height={30} width={30} />
+          </>
+        }
+      />
+      <PortFolioItem
+        imgSrc={FlexboxImage}
+        title="Foi desenvolvido uma landing page utilizando flex box"
+        linkProject="https://flex-blog5.netlify.app"
+        linkRepo="https://github.com/VictorGabriel021/flex-blog"
+        tecnologies={
+          <>
+            <HtmlIcon height={30} width={30} />
+            <CssIcon height={30} width={30} />
           </>
         }
       />

@@ -1,4 +1,21 @@
-import { NodeIcon, ReactIcon } from "../icons";
+import {
+  BootstrapIcon,
+  CssIcon,
+  GitIcon,
+  GithubIcon,
+  HtmlIcon,
+  JavascriptIcon,
+  MysqlIcon,
+  NextjsIcon,
+  NodeIcon,
+  PostgresqlIcon,
+  ReactIcon,
+  ReduxIcon,
+  SpringBootIcon,
+  SqlIcon,
+  TailwindcssIcon,
+  TypescriptIcon,
+} from "../icons";
 import { Container, Content } from "./styles";
 import { SiStyledcomponents } from "react-icons/si";
 
@@ -9,48 +26,23 @@ function Tecnologies() {
 
       <Content>
         <div>
-          <img
-            alt="html5"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-            height={50}
-            width={50}
-          />
+          <HtmlIcon />
           <p>HTML5</p>
         </div>
         <div>
-          <img
-            alt="css3"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-            height={50}
-            width={50}
-          />
+          <CssIcon />
           <p>CSS3</p>
         </div>
         <div>
-          <img
-            alt="javascript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-            height={50}
-            width={50}
-          />
+          <JavascriptIcon />
           <p>Javascript</p>
         </div>
         <div>
-          <img
-            alt="typescript"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-            height={50}
-            width={50}
-          />
+          <TypescriptIcon />
           <p>Typescript</p>
         </div>
         <div>
-          <img
-            alt="nextjs"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-            height={50}
-            width={50}
-          />
+          <NextjsIcon />
           <p>NextJs</p>
         </div>
         <div>
@@ -62,21 +54,11 @@ function Tecnologies() {
           <p>NodeJs</p>
         </div>
         <div>
-          <img
-            alt="Spring Boot"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-            height={50}
-            width={50}
-          />
+          <SpringBootIcon />
           <p>Spring Boot</p>
         </div>
         <div>
-          <img
-            alt="bootstrap"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
-            height={50}
-            width={50}
-          />
+          <BootstrapIcon />
           <p>Bootstrap</p>
         </div>
         <div>
@@ -84,61 +66,31 @@ function Tecnologies() {
           <p>Styled-Components</p>
         </div>
         <div>
-          <img
-            alt="tailwindcss"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-            height={50}
-            width={50}
-          />
+          <TailwindcssIcon />
           <p>Tailwindcss</p>
         </div>
         <div>
-          <img
-            alt="redux"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
-            height={50}
-            width={50}
-          />
+          <ReduxIcon />
           <p>Redux</p>
         </div>
         <div>
-          <img
-            alt="git"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
-            height={50}
-            width={50}
-          />
+          <GitIcon />
           <p>Git</p>
         </div>
         <div>
-          <i className="devicon-github-original" style={{ fontSize: 50 }} />
+          <GithubIcon />
           <p>Github</p>
         </div>
         <div>
-          <img
-            alt="sql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
-            height={50}
-            width={50}
-          />
+          <SqlIcon />
           <p>SQL</p>
         </div>
         <div>
-          <img
-            alt="postgresql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-            height={50}
-            width={50}
-          />
+          <PostgresqlIcon />
           <p>Postgresql</p>
         </div>
         <div>
-          <img
-            alt="mysql"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-            height={50}
-            width={50}
-          />
+          <MysqlIcon />
           <p>Mysql</p>
         </div>
       </Content>
