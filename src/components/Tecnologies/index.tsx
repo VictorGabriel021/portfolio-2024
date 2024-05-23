@@ -1,4 +1,5 @@
 import {
+  AngularIcon,
   BootstrapIcon,
   CssIcon,
   GitIcon,
@@ -15,6 +16,7 @@ import {
   SqlIcon,
   TailwindcssIcon,
   TypescriptIcon,
+  VueJsIcon,
 } from "../icons";
 import { Container, Content } from "./styles";
 import { SiStyledcomponents } from "react-icons/si";
@@ -48,6 +50,14 @@ function Tecnologies() {
         <div>
           <ReactIcon />
           <p>React</p>
+        </div>
+        <div>
+          <VueJsIcon />
+          <p>VueJs</p>
+        </div>
+        <div>
+          <AngularIcon />
+          <p>Angular</p>
         </div>
         <div>
           <NodeIcon />

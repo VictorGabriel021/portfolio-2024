@@ -42,7 +42,7 @@ function Welcome() {
 
         <ContainerDescription>
           <Description>
-            Com mais de 3 anos de experiência, atuo como desenvolvedor
+            Com mais de 4 anos de experiência, atuo como desenvolvedor
             front-end, trazendo comigo conhecimentos sólidos em back-end. Minha
             abordagem é direta e eficiente, focada em solucionar desafios de
             forma prática e funcional.

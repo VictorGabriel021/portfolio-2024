@@ -20,7 +20,7 @@ const PortFolioItem: React.FC<IPortFolioItem> = ({
     <div>
       <img src={imgSrc} alt={title} width="100%" />
       <Informations>
-        <div style={{ display: "flex" }}>{Tecnologies}</div>
+        <div style={{ display: "flex", gap: 5 }}>{Tecnologies}</div>
         <p style={{ padding: "0 20px" }}>{title}</p>
         <ButtonContainer>
           <CustomizedButtons>

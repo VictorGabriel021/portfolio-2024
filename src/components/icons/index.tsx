@@ -12,6 +12,34 @@ export const ReactIcon: React.FC<{ height?: number; width?: number }> = ({
   );
 };
 
+export const VueJsIcon: React.FC<{ height?: number; width?: number }> = ({
+  height,
+  width,
+}) => {
+  return (
+    <img
+      alt="vuejs"
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+      height={height ?? 50}
+      width={width ?? 50}
+    />
+  );
+};
+
+export const AngularIcon: React.FC<{ height?: number; width?: number }> = ({
+  height,
+  width,
+}) => {
+  return (
+    <img
+      alt="angular"
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"
+      height={height ?? 50}
+      width={width ?? 50}
+    />
+  );
+};
+
 export const NodeIcon: React.FC<{ height?: number; width?: number }> = ({
   height,
   width,

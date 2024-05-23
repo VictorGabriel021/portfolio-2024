@@ -21,7 +21,7 @@ function Resume() {
         <h1>Victor Gabriel</h1>
         <Description>
           Sou um profissional formado em Análise e Desenvolvimento de Sistemas,
-          trazendo mais de 3 anos de experiência notável em projetos de
+          trazendo mais de 4 anos de experiência notável em projetos de
           desenvolvimento de sites.{" "}
         </Description>
         <Description>
