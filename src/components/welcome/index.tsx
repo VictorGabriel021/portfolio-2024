@@ -15,7 +15,7 @@ function Welcome() {
         <Salutation>OI 👋 EU SOU O VICTOR GABRIEL</Salutation>
         <div>
           <Title fontSize={9}>
-            FRONT-END{" "}
+            FULL-STACK{" "}
             <IconSpan>
               <a href="https://github.com/VictorGabriel021" target="__blank">
                 <i
@@ -43,7 +43,7 @@ function Welcome() {
         <ContainerDescription>
           <Description>
             Com mais de 4 anos de experiência, atuo como desenvolvedor
-            front-end, trazendo comigo conhecimentos sólidos em back-end. Minha
+            full-stack, trazendo comigo conhecimentos sólidos em front-end e back-end. Minha
             abordagem é direta e eficiente, focada em solucionar desafios de
             forma prática e funcional.
           </Description>
